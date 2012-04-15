@@ -1,0 +1,34 @@
+"2.3.1 (created: 2010/04/07 18:56:53)
+
+set runtimepath=/Users/gaccha161/.vimperator
+source! /Users/gaccha161/.vimperatorrc.local
+
+" vim: set ft=vimperator:
+
+hi Hint z-index:5000; font-family:Menlo; font-size:14px; color:white; background-color:red; border-color:ButtonShadow; border-width:0px; border-style:solid; padding:0px 2px 0px 2px; position:absolute;
+
+
+map j 3<C-e>
+map k 3<C-y>
+map h <C-q>
+map l <C-n>
+
+map <C-r> :restart<CR>
+
+let g:hintsio="iO"
+
+map h <C-p>
+map l <C-n>
+
+"stella
+map stpl :stplay<CR>
+map stv  :stvolume 
+map stpa :stpause<CR>
+map sts  :stseek 
+map stf  :stfullscreen<CR>
+
+set visualbell
+highlight Bell display:none
+
+:style -name commandline-ime chrome://* #liberator-commandline-command input {ime-mode: inactive;}
+
