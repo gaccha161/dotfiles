@@ -1,31 +1,33 @@
 "2.3.1 (created: 2010/04/07 18:56:53)
 
-set runtimepath=/Users/gaccha161/.vimperator
-source! /Users/gaccha161/.vimperatorrc.local
+set runtimepath=/Users/hirokazu/.vimperator
+source! /Users/hirokazu/.vimperatorrc.local
 
 " vim: set ft=vimperator:
 
+set hintchars=ifjklasdhgyuopqwe
 hi Hint z-index:5000; font-family:Menlo; font-size:14px; color:white; background-color:red; border-color:ButtonShadow; border-width:0px; border-style:solid; padding:0px 2px 0px 2px; position:absolute;
 
+set gui=none
 
-map j 3<C-e>
-map k 3<C-y>
-map h <C-q>
-map l <C-n>
+noremap j 3<C-e>
+noremap k 3<C-y>
 
-map <C-r> :restart<CR>
+noremap <C-r> :restart<CR>
 
 let g:hintsio="iO"
 
-map h <C-p>
-map l <C-n>
+noremap h <C-p>
+noremap l <C-n>
 
 "stella
-map stpl :stplay<CR>
-map stv  :stvolume 
-map stpa :stpause<CR>
-map sts  :stseek 
-map stf  :stfullscreen<CR>
+noremap stpl :stplay<CR>
+noremap stv  :stvolume 
+noremap stpa :stpause<CR>
+noremap sts  :stseek 
+noremap stf  :stfullscreen<CR>
+
+nnoremap ; :
 
 set visualbell
 highlight Bell display:none
