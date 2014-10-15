@@ -12,6 +12,7 @@ set gui=none
 
 noremap j 3<C-e>
 noremap k 3<C-y>
+nnoremap d D
 
 noremap <C-r> :restart<CR>
 
